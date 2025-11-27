@@ -17,6 +17,7 @@ async function getData() {
             <img src="${country.img}" alt="img">
             <h1>${country.name}</h1>
             <h3>Population: ${country.population}</h3>
+            <h3>Region: ${country.region}</h3>
             <h3>Capital: ${country.capital}</h3>
         </div>
             `
